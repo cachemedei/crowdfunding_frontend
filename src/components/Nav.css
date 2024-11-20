@@ -1,3 +1,4 @@
+/* NavBar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -7,7 +8,7 @@ nav {
     margin: 0 auto;
 }
 
-nav .navlinks {
+nav .nav-links {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -24,7 +25,7 @@ nav .link:active {
     color: #ebe5e5;
 }
 
-nav .link:visited{
+nav .link:visited {
     color: #ebe5e5;
 }
 

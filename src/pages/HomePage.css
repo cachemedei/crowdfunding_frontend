@@ -1,3 +1,11 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 .hero {
     border: 2px solid #1f1d1d;
     border-radius: 5px;
@@ -28,18 +36,12 @@
 
 .projects h1 {
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .projects-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 50px 0;
-}
-
-.projects .view {
-    width: fit-content;
-    margin: auto;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 10px;
+  row-gap: 10px;
 }
